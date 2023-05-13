@@ -16,3 +16,7 @@ const _ = require("lodash");
 const items = [1, [2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+
+setTimeout(() => {
+  console.log("this is a callback function!");
+}, 0);
